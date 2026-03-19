@@ -12,7 +12,7 @@ const services = [
   {
     title: "Video Editing & Production",
     desc: "We craft powerful videos that don't just tell your story — they spark emotion, captivate attention, and leave a lasting impact on your audience.",
-    edge: "Our edge lies in storytelling that reflects the real journeys of African women. Through authentic, resonant narratives, we create content that forges genuine connections.",
+    edge: "Our edge lies in storytelling that reflects the real journeys of African entrepreneurs. Through authentic, resonant narratives, we create content that forges genuine connections.",
     image: videoImg,
     accent: "border-primary",
   },
@@ -66,7 +66,7 @@ const Services = () => {
                   Our <span className="text-primary">Services</span>
                 </h1>
                 <p className="font-body text-muted-foreground max-w-xl mx-auto">
-                  Comprehensive digital solutions tailored for the unique needs of women-led businesses across Africa.
+                  Comprehensive digital solutions tailored for the unique needs of African businesses across the continent.
                 </p>
               </div>
             </div>

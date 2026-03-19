@@ -33,14 +33,14 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
             <div className="space-y-6 animate-fade-in-up">
               <span className="inline-block font-body text-xs font-semibold tracking-[0.2em] uppercase text-primary">
-                #Female-Led
+                #African-Led
               </span>
               <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.05]">
                 Empowering African{" "}
-                <span className="text-gradient">Female Entrepreneurs</span>
+                <span className="text-gradient">Entrepreneurs</span>
               </h1>
               <p className="font-body text-lg text-muted-foreground leading-relaxed max-w-lg">
-                We don't just market — we ignite growth. Equipping women-led businesses to stand out, scale up, and thrive in the digital space.
+                We don't just market — we ignite growth. Equipping African businesses to stand out, scale up, and thrive in the digital space.
               </p>
               <div className="flex gap-4 pt-4">
                 <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-body font-semibold">
@@ -53,7 +53,7 @@ const Index = () => {
             </div>
             <div className="relative" style={{ animationDelay: "0.2s" }}>
               <div className="relative rounded-2xl overflow-hidden">
-                <img src={heroImg} alt="African woman entrepreneur" className="w-full h-[500px] object-cover" />
+                <img src={heroImg} alt="African entrepreneurs" className="w-full h-[500px] object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
               </div>
               <div className="absolute -bottom-4 -left-4 w-24 h-24 accent-gradient-yellow rounded-xl opacity-20" />
@@ -75,10 +75,10 @@ const Index = () => {
                 Who We <span className="text-primary">Are</span>
               </h2>
               <p className="font-body text-muted-foreground leading-relaxed">
-                Emerge Digital is a vibrant digital marketing agency on a mission to power up women entrepreneurs across Africa. With expertise in digital strategy, creative design, storytelling, and technology, we ignite growth.
+                Emerge Digital is a vibrant digital marketing agency on a mission to power up entrepreneurs across Africa — especially women entrepreneurs. With expertise in digital strategy, creative design, storytelling, and technology, we ignite growth.
               </p>
               <p className="font-body text-muted-foreground leading-relaxed">
-                We believe women entrepreneurs are the backbone of Africa's future economy. Our passion lies in equipping women-led businesses to take their place on the global stage.
+                We believe African entrepreneurs are the backbone of Africa's future economy. Our passion lies in equipping African businesses to take their place on the global stage.
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Index = () => {
       <section className="py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="font-display text-4xl font-bold mb-4">What We <span className="text-secondary">Do</span></h2>
-          <p className="font-body text-muted-foreground mb-12 max-w-xl mx-auto">Comprehensive services tailored to meet the unique needs of women-led businesses.</p>
+          <p className="font-body text-muted-foreground mb-12 max-w-xl mx-auto">Comprehensive services tailored to meet the unique needs of African businesses.</p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-10">
             {services.map((s) => (
               <div key={s.title} className="bg-card border border-border rounded-xl p-6 hover:border-primary/30 transition-colors group">

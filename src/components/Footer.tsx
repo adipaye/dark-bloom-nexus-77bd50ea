@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <img src={logo} alt="Emerge Digital" className="h-8 w-auto mb-4" />
             <p className="text-muted-foreground text-sm font-body leading-relaxed">
-              Empowering African female entrepreneurs to stand out, scale up, and thrive in the digital space.
+              Empowering African entrepreneurs to stand out, scale up, and thrive in the digital space.
             </p>
           </div>
           <div>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="font-display text-primary font-semibold mb-4">Get In Touch</h4>
-            <p className="text-sm text-muted-foreground font-body">info@emergedigital.africa</p>
+            <p className="text-sm text-muted-foreground font-body">hello@emergedigital.africa</p>
           </div>
         </div>
         <div className="border-t border-border mt-8 pt-6 text-center">
