@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -41,25 +41,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-display font-semibold mb-1">Email</h3>
-                  <p className="font-body text-sm text-muted-foreground">info@emergedigital.africa</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 accent-gradient-blue rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Phone className="h-5 w-5 text-secondary-foreground" />
-                </div>
-                <div>
-                  <h3 className="font-display font-semibold mb-1">Phone</h3>
-                  <p className="font-body text-sm text-muted-foreground">+27 (0) 00 000 0000</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 accent-gradient-red rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="h-5 w-5 text-accent-foreground" />
-                </div>
-                <div>
-                  <h3 className="font-display font-semibold mb-1">Location</h3>
-                  <p className="font-body text-sm text-muted-foreground">Africa</p>
+                  <p className="font-body text-sm text-muted-foreground">hello@emergedigital.africa</p>
                 </div>
               </div>
             </div>
